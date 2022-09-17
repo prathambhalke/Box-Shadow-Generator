@@ -1,0 +1,33 @@
+.App {
+  height: "100vh";
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.controls {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  /* height: 70vh; */
+}
+input {
+  padding: 15px;
+}
+.box {
+  color: black;
+  background: #ffba01;
+  font-size: 20px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result {
+  margin-top: 100px;
+}
+.btn {
+  width: 100px;
+  height: 80px;
+}
